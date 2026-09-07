@@ -1,8 +1,14 @@
 # Local scope 
+name = "Rudra"
 def student():
-    name= "Rudra"
-print(name)
+    print(name)
 student()
+
+#2.
+def display():
+    x = 10
+    print(x)
+display()
 
 # Global scope
 company = "TCS"
@@ -13,7 +19,7 @@ display()
 print("outside the function:", company)
 print("start-2")
 
-2.
+#2.
 number = 10
 def display():
     number = 100

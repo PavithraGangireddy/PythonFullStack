@@ -44,6 +44,4 @@ Add(10, 20)
 
 # default parameter
 def CountryDetails(country="India"):
-    print("My country is:", country)
-    CountryDetails("USA")
-CountryDetails()
+    print(country)

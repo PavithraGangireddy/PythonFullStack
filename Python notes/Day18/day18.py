@@ -5,6 +5,7 @@ def square(l):
     for i in l:
         k.append(i*i)
         return k
+    n = input()
 l = [1,2,3,4,5]
 r = square(l)
 print(l)
